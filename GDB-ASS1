@@ -1,0 +1,10 @@
+a) gcc a.c b.c -I. -g -o out
+b) break f1
+c) break b.c:10
+d) continue
+e) 6 times
+f) 3 times
+g) info breakpoints <breakpointNumber>
+h) info breakpoints
+i) 33; ignore 1 2, r, c until breakpoint 1 hits, p x
+j) set listsize 5, break f0, c, list
